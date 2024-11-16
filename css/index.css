@@ -5217,9 +5217,19 @@ body[data-type='about'] #web_bg {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
   margin-top: 10px;
+  height: 100%;
+  overflow: auto;
 }
 .skills .skill-info {
+  width: fit-content;
+  min-width: 180px;
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -27201,11 +27211,6 @@ div#runtime {
 #skills-tags-group-all .tags-group-icon-pair .tags-group-icon:nth-child(even) {
   margin-top: 1rem;
   transform: translate(-60px);
-}
-
-#skills-tags-group-all .etc {
-  margin-right: 10px;
-  margin-top: 10px;
 }
 
 @keyframes rowup {
