@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Vue3学习笔记</title>
+      <link href="/2025/03/10/%E6%8A%80%E6%9C%AF/Vue/Vue3%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <url>/2025/03/10/%E6%8A%80%E6%9C%AF/Vue/Vue3%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<ol><li><a href="#nextTick">nextTick()</a></li></ol><h1 id="nextTick"><a href="#nextTick" class="headerlink" title="nextTick"></a>nextTick</h1><p>等待下一次<code>DOM</code>更新刷新的工具方法。</p><p>在<code>Vue</code>中更改响应式状态时，最终的<code>DOM</code>更新并不是同步生效，而是由<code>Vue</code>将它们缓存在一个队列中，直到下一个<code>tick</code>才一起执行。这样是为了确保每个组件无论发生多少状态改变，都仅执行一次更新。</p><p><code>nextTick()</code>可以在状态改变后立即使用，以等待<code>DOM</code>更新完成。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端 </tag>
+            
+            <tag> Vue3 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>axios知识点汇总</title>
       <link href="/2024/11/25/%E6%8A%80%E6%9C%AF/JavaScript/axios%E7%9F%A5%E8%AF%86%E7%82%B9%E6%B1%87%E6%80%BB/"/>
       <url>/2024/11/25/%E6%8A%80%E6%9C%AF/JavaScript/axios%E7%9F%A5%E8%AF%86%E7%82%B9%E6%B1%87%E6%80%BB/</url>
